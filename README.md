@@ -62,18 +62,6 @@ python test_qusr.py \
   --default
 ```
 
-### 4. Memory-Saving Options (Large Images)
-
-```bash
-python test_qusr.py \
-  --latent_tiled_size 96 \
-  --latent_tiled_overlap 32 \
-  --vae_encoder_tiled_size 1024 \
-  --vae_decoder_tiled_size 224 \
-  --enable_uncertainty \
-  --default
-```
-
 ## Training
 
 ### 1. Prepare Data
