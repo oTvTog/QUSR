@@ -1,19 +1,5 @@
 # QUSR: Quality-Aware Prior with Uncertainty-Guided Noise Generation for Real-World Super-Resolution
 
-Diffusion-based image super-resolution (ISR) has shown strong potential, but it still struggles in real-world scenarios where degradations are unknown and spatially non-uniform, often resulting in lost details or visual artifacts. To address this challenge, we propose **QUSR**, a novel super-resolution diffusion model that integrates:
-
-- **QAP (Quality-Aware Prior)**: Leverages a Multimodal Large Language Model (MLLM) to generate reliable quality descriptions, providing an effective and interpretable quality prior for the restoration process.
-
-- **UNG (Uncertainty-Guided Noise Generation)**: Adaptively adjusts the noise injection intensity—applying stronger perturbations to high-uncertainty regions (e.g., edges and textures) to reconstruct complex details, while minimizing noise in low-uncertainty regions (e.g., flat areas) to preserve original information.
-
-- **UEM (Uncertainty Estimation Module)**: A lightweight encoder-decoder that predicts per-pixel uncertainty maps to guide the UNG module.
-
-Experimental results confirm that QUSR can produce high-fidelity and high-realism images in real-world scenarios.
-
-**Source code**: [https://github.com/oTvTog/QUSR](https://github.com/oTvTog/QUSR)
-
----
-
 ## Experimental Results
 
 Benchmark results on real-world super-resolution datasets (4× upscaling):
