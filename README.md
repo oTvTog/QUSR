@@ -6,8 +6,8 @@ Benchmark results on real-world super-resolution datasets (4× upscaling):
 
 | Dataset | PSNR↑ | SSIM↑ | LPIPS↓ | DISTS↓ | CLIPIQA↑ | NIQE↓ | MUSIQ↑ | MANIQA↑ | FID↓ |
 |---------|-------|-------|--------|--------|----------|-------|--------|---------|------|
-| **RealSR** (100 images) | 25.54 | 0.729 | 0.297 | 0.220 | 0.682 | 5.66 | 69.17 | 0.656 | 125.27 |
-| **DRealSR** (93 images) | 29.81 | 0.820 | 0.271 | 0.211 | 0.708 | 6.40 | 67.00 | 0.642 | 113.87 |
+| **RealSR** | 25.54 | 0.729 | 0.297 | 0.220 | 0.682 | 5.66 | 69.17 | 0.656 | 125.27 |
+| **DRealSR** | 29.81 | 0.820 | 0.271 | 0.211 | 0.708 | 6.40 | 67.00 | 0.642 | 113.87 |
 
 Full evaluation logs: [`logs/test_METRICS_real.log`](logs/test_METRICS_real.log), [`logs/test_METRICS_dreal.log`](logs/test_METRICS_dreal.log)
 
@@ -158,8 +158,8 @@ QUSR/
 │   ├── test_datasets/
 │   └── lowlevel_prompt_q*/
 ├── experiments/      # Visual results
-│   ├── test1w5_ur_real_f/   # RealSR outputs (100 images)
-│   └── test1w5_ur_dreal_f/  # DRealSR outputs (93 images)
+│   ├── test1w5_ur_real_f/   # RealSR outputs
+│   └── test1w5_ur_dreal_f/  # DRealSR outputs
 ├── logs/             # Evaluation metrics logs
 └── until_data/       # QAP generation scripts (MLLM)
 ```
