@@ -1,5 +1,5 @@
 # QUSR: Quality-Aware Prior with Uncertainty-Guided Noise Generation for Real-World Super-Resolution
-
+![image](https://github.com/oTvTog/QUSR/QUSR_01.png)
 ## Experimental Results
 
 Benchmark results on real-world super-resolution datasets (4× upscaling):
